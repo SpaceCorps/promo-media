@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>SpaceCorps promo: Instagram photos</title><link>https://github.com/SpaceCorps/promo-media</link>
+<description>SpaceCorps promo: Instagram photos</description>
+<item><title>0.0.5</title><description>Before SpaceCorps 2027, there was a browser game
+Back on January 11, 2026, update 0.0.5 of our browser prototype laid the foundation.
+Ship combat against players and aliens, portal jumps, a minimap, quests, a shop and a drag-and-drop hangar.
+Eight months later we rebuilt it as a native game.
+Free on Steam, link in bio.
+
+#spacegame #indiegame #indiedev #mmorpg #mmo #gamedev #pcgaming #scifi #freetoplay #spaceships</description><link>https://github.com/SpaceCorps/promo-media/releases/download/cards/card-v0.0.5.jpg</link><guid isPermaLink="false">instagram-photos-sample</guid><pubDate>Sun, 01 Nov 2026 12:00:00 +0100</pubDate><enclosure url="https://github.com/SpaceCorps/promo-media/releases/download/cards/card-v0.0.5.jpg" type="image/jpeg" length="0"/></item>
+</channel></rss>

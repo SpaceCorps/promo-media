@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>SpaceCorps promo: Reddit</title><link>https://github.com/SpaceCorps/promo-media</link>
+<description>SpaceCorps promo: Reddit</description>
+<item><title>0.0.5, January: the browser prototype our space MMO grew out of</title><description>We are telling the story of SpaceCorps 2027 one release at a time, and it starts in a browser tab. Back on January 11, 2026, we shipped update 0.0.5 of our browser prototype, the game SpaceCorps 2027 was later rebuilt from.
+
+That release was the foundation. We wrote the real-time game loop and synced player positions over SignalR, so several pilots could share a map. Combat worked ship to ship and ship to alien, with damage, shields and ammo use, and aliens fought back when you shot them. You could jump through portals between maps, read your coordinates on a minimap, take quests, buy from a shop with item rarities, and fit your ship in a drag-and-drop hangar. There was a ranking, player statistics and an in-game wiki too.
+
+Eight months later we rebuilt the whole thing as a native game, and the next posts in this series walk through how we got there.
+
+If you played the browser version back then, what do you remember most from it?
+
+Picture: https://github.com/SpaceCorps/promo-media/releases/download/cards/card-v0.0.5.jpg
+
+I work on the game.
+
+Notes: our Discord announcements
+Steam: https://store.steampowered.com/app/2213580/
+Play: https://play.spacecorps.tech/
+Discord: https://discord.gg/VjW67tkrTb</description><link>https://github.com/SpaceCorps/promo-media/releases/download/cards/card-v0.0.5.jpg</link><guid isPermaLink="false">reddit-sample</guid><pubDate>Sun, 01 Nov 2026 12:00:00 +0100</pubDate><enclosure url="https://github.com/SpaceCorps/promo-media/releases/download/cards/card-v0.0.5.jpg" type="image/jpeg" length="0"/></item>
+</channel></rss>

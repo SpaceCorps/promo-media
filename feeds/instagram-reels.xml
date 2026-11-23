@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>SpaceCorps promo: Instagram Reels</title><link>https://github.com/SpaceCorps/promo-media</link>
+<description>SpaceCorps promo: Instagram Reels</description>
+<item><title>0.0.10</title><description>Damage, shield, luck, each on its own timer
+Back on January 17, 2026, update 0.0.10 of our browser prototype reworked boosters.
+Sealed boosters, custom shortcuts to fire them, and a panel that counted every one down. Recorded at the time.
+Free on Steam, link in bio.
+
+#spacegame #indiegame #indiedev #mmorpg #mmo #gamedev #pcgaming #scifi #freetoplay #spaceships</description><link>https://github.com/SpaceCorps/promo-media/releases/download/v0.0.10/promo-9x16.mp4</link><guid isPermaLink="false">instagram-reels-sample</guid><pubDate>Sun, 01 Nov 2026 12:00:00 +0100</pubDate><enclosure url="https://github.com/SpaceCorps/promo-media/releases/download/v0.0.10/promo-9x16.mp4" type="video/mp4" length="0"/></item>
+</channel></rss>

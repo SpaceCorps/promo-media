@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>SpaceCorps promo: YouTube Shorts</title><link>https://github.com/SpaceCorps/promo-media</link>
+<description>SpaceCorps promo: YouTube Shorts</description>
+<item><title>The booster panel of our browser prototype, January 2026 #Shorts</title><description>Back in January 2026, update 0.0.10 of our browser prototype reworked boosters. Each one ran on its own timer, and you could bind your own shortcut to fire it. This clip was recorded at the time.
+
+Steam: https://store.steampowered.com/app/2213580/
+Play: https://play.spacecorps.tech/
+Discord: https://discord.gg/VjW67tkrTb
+
+#spacegame #indiegame #mmo</description><link>https://github.com/SpaceCorps/promo-media/releases/download/v0.0.10/promo-9x16.mp4</link><guid isPermaLink="false">youtube-sample</guid><pubDate>Sun, 01 Nov 2026 12:00:00 +0100</pubDate><enclosure url="https://github.com/SpaceCorps/promo-media/releases/download/v0.0.10/promo-9x16.mp4" type="video/mp4" length="0"/></item>
+</channel></rss>

@@ -1,0 +1,21 @@
+name: Posting feeds
+# Adds the posts whose time has come to the channel feeds (feeds/*.xml), which Zapier watches.
+# Slots are 10:00, 15:00 and 20:00 Stockholm; the runs are 5 minutes after (UTC: winter 09/14/19, summer 08/13/18).
+on:
+  schedule:
+    - cron: "5 8,9,13,14,18,19 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: feeds
+jobs:
+  feeds:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/feeds.py
+      - run: |
+          git config user.name "spacecorps-promo"
+          git config user.email "promo@users.noreply.github.com"
+          git add feeds
+          git diff --cached --quiet || { git commit -m "feeds: $(date -u +%FT%H:%MZ)"; git push; }
