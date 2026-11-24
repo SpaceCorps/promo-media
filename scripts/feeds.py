@@ -6,10 +6,10 @@
 Zapier's free plan allows two-step Zaps, and "RSS by Zapier, New Item in Feed" costs no task: so each channel is one
 Zap, "new item in its feed -> post it". A post enters the feeds at its slot (publish_date + slot, Europe/Stockholm);
 the GitHub Action runs at the slots and commits the feeds. Feeds (newest first, the last 30 items):
-  youtube.xml          videos: title = Shorts title, description = Shorts description, enclosure = the video
-  instagram-reels.xml  videos: description = Instagram caption, enclosure = the video
-  instagram-photos.xml cards:  description = Instagram caption, enclosure = the picture
-  tiktok.xml           videos: description = TikTok caption, enclosure = the video
+  youtube.xml          videos: title = Shorts title, description = Shorts description, link = the video
+  instagram-reels.xml  videos: description = Instagram caption, link = the video
+  instagram-photos.xml cards:  description = Instagram caption, link = the picture
+  tiktok.xml           videos: description = TikTok caption, link = the video
   reddit.xml           the day's first post only (one Reddit post a day), for a text post: title = Reddit title,
                        description = the body, the media link and the "I work on the game." links (a two-step Zap
                        cannot add a first comment, so the links go into the post)
@@ -36,15 +36,13 @@ def feed(name, title, items):
            f"<title>{escape(title)}</title><link>https://github.com/SpaceCorps/promo-media</link>",
            f"<description>{escape(title)}</description>"]
     for it in items:
-        mime = "video/mp4" if it["url"].endswith(".mp4") else "image/jpeg"
         out.append("<item>"
                    f"<title>{escape(it['title'])}</title>"
                    f"<description>{escape(it['description'])}</description>"
                    f"<link>{escape(it['url'])}</link>"
                    f'<guid isPermaLink="false">{escape(name + "-" + it["version"])}</guid>'
                    f"<pubDate>{format_datetime(it['when'])}</pubDate>"
-                   f'<enclosure url="{escape(it["url"])}" type="{mime}" length="0"/>'
-                   "</item>")
+                   "</item>")  # no <enclosure>: Zapier merges it with <link> into a list (two copies of the media)
     out.append("</channel></rss>")
     (ROOT / "feeds").mkdir(exist_ok=True)
     (ROOT / "feeds" / f"{name}.xml").write_text("\n".join(out) + "\n", encoding="utf-8")
