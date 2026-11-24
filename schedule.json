@@ -91,8 +91,8 @@
   },
   {
     "order": 6,
-    "publish_date": "2026-11-25",
-    "slot": 20,
+    "publish_date": "2026-11-24",
+    "slot": 13,
     "status": "queued",
     "version": "0.0.10",
     "kind": "video",
