@@ -1,9 +1,10 @@
 name: Posting feeds
 # Adds the posts whose time has come to the channel feeds (feeds/*.xml), which Zapier watches.
-# Slots are 10:00, 15:00 and 20:00 Stockholm; the runs are 5 minutes after (UTC: winter 09/14/19, summer 08/13/18).
+# Slots are 10:00, 15:00 and 20:00 Stockholm. GitHub delays or drops scheduled runs, so it runs every 15 minutes:
+# a post enters the feeds at the first run after its slot (a run with nothing new commits nothing).
 on:
   schedule:
-    - cron: "5 8,9,13,14,18,19 * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch:
 permissions:
   contents: write
