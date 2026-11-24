@@ -2,6 +2,18 @@
 <rss version="2.0"><channel>
 <title>SpaceCorps promo: Instagram photos</title><link>https://github.com/SpaceCorps/promo-media</link>
 <description>SpaceCorps promo: Instagram photos</description>
+<item><title>0.0.7</title><description>The day pilots stopped flying alone
+Back in January 2026, update 0.0.7 of our browser prototype added clans.
+Create one, join one, manage it, and compete with other clans on the leaderboards.
+Free on Steam, link in bio.
+
+#spacegame #indiegame #indiedev #mmorpg #mmo #gamedev #pcgaming #scifi #freetoplay #spaceships</description><link>https://github.com/SpaceCorps/promo-media/releases/download/cards/card-v0.0.7.jpg</link><guid isPermaLink="false">instagram-photos-0.0.7</guid><pubDate>Tue, 24 Nov 2026 20:00:00 +0100</pubDate></item>
+<item><title>0.0.6</title><description>Your own base, running while you fly
+Back in January 2026, update 0.0.6 of our browser prototype added Skylab.
+You managed modules, produced resources and toggled module power. Assembly for crafting came in the same update.
+Free on Steam, link in bio.
+
+#spacegame #indiegame #indiedev #mmorpg #mmo #gamedev #pcgaming #scifi #freetoplay #spaceships</description><link>https://github.com/SpaceCorps/promo-media/releases/download/cards/card-v0.0.6.jpg</link><guid isPermaLink="false">instagram-photos-0.0.6</guid><pubDate>Tue, 24 Nov 2026 15:00:00 +0100</pubDate></item>
 <item><title>0.0.5</title><description>Before SpaceCorps 2027, there was a browser game
 Back on January 11, 2026, update 0.0.5 of our browser prototype laid the foundation.
 Ship combat against players and aliens, portal jumps, a minimap, quests, a shop and a drag-and-drop hangar.
