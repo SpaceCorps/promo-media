@@ -2,6 +2,24 @@
 <rss version="2.0"><channel>
 <title>SpaceCorps promo: Reddit</title><link>https://github.com/SpaceCorps/promo-media</link>
 <description>SpaceCorps promo: Reddit</description>
+<item><title>0.0.8, January: our space MMO's browser prototype polished its quests</title><description>Our look back at SpaceCorps 2027 continues with update 0.0.8 of the browser prototype, released on January 12, 2026.
+
+The quest system had gone in with the foundation release a day earlier, and it worked, but it did not feel good to use. In 0.0.8 we polished the quest features and the visuals around them, so taking a mission, following it and finishing it read more clearly. The picture on this card is the Mission Control window from that week.
+
+The login screen got another pass too. The error messages became clearer, and we simplified the eye icon that shows or hides your password, which had visual bugs. Behind the scenes, logging became granular per player, which made it much easier to follow what went wrong for one person. We also updated the geometry and materials of the base connectors.
+
+Small releases like this one were most of January. SpaceCorps 2027, the native rebuild, came eight months later.
+
+Do you read quest text in games like this, or go straight for the objective and the reward?
+
+Picture: https://github.com/SpaceCorps/promo-media/releases/download/cards/card-v0.0.8.jpg
+
+I work on the game.
+
+Notes: our Discord announcements
+Steam: https://store.steampowered.com/app/2213580/
+Play: https://play.spacecorps.tech/
+Discord: https://discord.gg/VjW67tkrTb</description><link>https://github.com/SpaceCorps/promo-media/releases/download/cards/card-v0.0.8.jpg</link><guid isPermaLink="false">reddit-0.0.8</guid><pubDate>Wed, 25 Nov 2026 10:00:00 +0100</pubDate></item>
 <item><title>0.0.5, January: the browser prototype our space MMO grew out of</title><description>We are telling the story of SpaceCorps 2027 one release at a time, and it starts in a browser tab. Back on January 11, 2026, we shipped update 0.0.5 of our browser prototype, the game SpaceCorps 2027 was later rebuilt from.
 
 That release was the foundation. We wrote the real-time game loop and synced player positions over SignalR, so several pilots could share a map. Combat worked ship to ship and ship to alien, with damage, shields and ammo use, and aliens fought back when you shot them. You could jump through portals between maps, read your coordinates on a minimap, take quests, buy from a shop with item rarities, and fit your ship in a drag-and-drop hangar. There was a ranking, player statistics and an in-game wiki too.

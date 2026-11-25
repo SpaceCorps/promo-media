@@ -2,6 +2,18 @@
 <rss version="2.0"><channel>
 <title>SpaceCorps promo: Instagram photos</title><link>https://github.com/SpaceCorps/promo-media</link>
 <description>SpaceCorps promo: Instagram photos</description>
+<item><title>0.0.9</title><description>The first way to support the game
+Back on January 13, 2026, update 0.0.9 of our browser prototype added subscriptions.
+Payments went through Stripe, and premium status showed in one place in the interface.
+Free on Steam, link in bio.
+
+#spacegame #indiegame #indiedev #mmorpg #mmo #gamedev #pcgaming #scifi #freetoplay #spaceships</description><link>https://github.com/SpaceCorps/promo-media/releases/download/cards/card-v0.0.9.jpg</link><guid isPermaLink="false">instagram-photos-0.0.9</guid><pubDate>Wed, 25 Nov 2026 15:00:00 +0100</pubDate></item>
+<item><title>0.0.8</title><description>A quest window worth opening
+Back on January 12, 2026, update 0.0.8 of our browser prototype polished the quest system.
+Smoother quest features, cleaner visuals, and per-player logging so we could chase bugs faster.
+Free on Steam, link in bio.
+
+#spacegame #indiegame #indiedev #mmorpg #mmo #gamedev #pcgaming #scifi #freetoplay #spaceships</description><link>https://github.com/SpaceCorps/promo-media/releases/download/cards/card-v0.0.8.jpg</link><guid isPermaLink="false">instagram-photos-0.0.8</guid><pubDate>Wed, 25 Nov 2026 10:00:00 +0100</pubDate></item>
 <item><title>0.0.7</title><description>The day pilots stopped flying alone
 Back in January 2026, update 0.0.7 of our browser prototype added clans.
 Create one, join one, manage it, and compete with other clans on the leaderboards.
