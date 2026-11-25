@@ -1,22 +1,46 @@
 name: Posting feeds
 # Adds the posts whose time has come to the channel feeds (feeds/*.xml), which Zapier watches.
-# Slots are 10:00, 15:00 and 20:00 Stockholm. GitHub delays or drops scheduled runs, so it runs every 15 minutes:
-# a post enters the feeds at the first run after its slot (a run with nothing new commits nothing).
+# Slots: 10:00, 15:00 and 20:00 Stockholm.
+#
+# GitHub's scheduled runs proved unreliable here (3 runs a day instead of 96), so the workflow relays itself: each run
+# updates the feeds, sleeps until 2 minutes after the next slot (at most 5 h 40 min, under the 6 h job limit), updates
+# them again and starts the next run (workflow_dispatch from GITHUB_TOKEN is allowed to start a run). The schedule
+# stays as a backup that restarts the relay if it ever breaks; the concurrency group keeps one run plus one waiting.
 on:
-  schedule:
-    - cron: "*/15 * * * *"
   workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
 permissions:
   contents: write
-concurrency: feeds
+  actions: write
+concurrency:
+  group: feeds
+  cancel-in-progress: false
 jobs:
   feeds:
     runs-on: ubuntu-latest
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v4
-      - run: python3 scripts/feeds.py
-      - run: |
-          git config user.name "spacecorps-promo"
-          git config user.email "promo@users.noreply.github.com"
-          git add feeds
-          git diff --cached --quiet || { git commit -m "feeds: $(date -u +%FT%H:%MZ)"; git push; }
+      - name: Publish what is due
+        run: scripts/publish_due.sh
+      - name: Wait for the next slot
+        run: |
+          secs=$(python3 - <<'EOF'
+          import datetime as dt
+          from zoneinfo import ZoneInfo
+          now = dt.datetime.now(ZoneInfo("Europe/Stockholm"))
+          slots = [now.replace(hour=h, minute=2, second=0, microsecond=0) + dt.timedelta(days=d)
+                   for d in (0, 1) for h in (10, 15, 20)]
+          nxt = min(s for s in slots if s > now)
+          print(min(int((nxt - now).total_seconds()), 5 * 3600 + 40 * 60))
+          EOF
+          )
+          echo "sleeping $secs s"
+          sleep "$secs"
+      - name: Publish what is due
+        run: scripts/publish_due.sh
+      - name: Start the next run
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run feeds.yml --repo "${{ github.repository }}" --ref main
