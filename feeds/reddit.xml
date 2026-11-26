@@ -2,6 +2,24 @@
 <rss version="2.0"><channel>
 <title>SpaceCorps promo: Reddit</title><link>https://github.com/SpaceCorps/promo-media</link>
 <description>SpaceCorps promo: Reddit</description>
+<item><title>0.0.11, January: the first drones of our space MMO, flying a Wingman formation in the browser prototype</title><description>This history post has footage from the day itself. On January 18, 2026, update 0.0.11 of our browser prototype added Drones V1.
+
+The drones flew in a Wingman formation, in rows of 2-2-4 around the player's ship. Their movement was interpolated so they glided into place, and the formation tightened depending on how the ship was rotated. We drew them with instanced rendering so a screen full of drones stayed fast. In the clip you can see them follow the ship while it shoots a Seeker.
+
+The same update reworked the background debris, with a Low, Medium and High density setting and no more clumps in one corner of the map. The safe zone around Mission Control grew from 1200 to 4800. In Assembly, the production queue scrolled sideways, and an item that lost module slots now handed its extra modifiers back to your inventory instead of eating them. We also fixed boosters that did not save their time between sessions.
+
+We rebuilt the game as SpaceCorps 2027, a native game, eight months after this.
+
+Which drone formation would you want first: tight around the ship, or spread out in front?
+
+Video: https://github.com/SpaceCorps/promo-media/releases/download/v0.0.11/promo-9x16.mp4
+
+I work on the game.
+
+Notes: our Discord announcements
+Steam: https://store.steampowered.com/app/2213580/
+Play: https://play.spacecorps.tech/
+Discord: https://discord.gg/VjW67tkrTb</description><link>https://github.com/SpaceCorps/promo-media/releases/download/v0.0.11/promo-9x16.mp4</link><guid isPermaLink="false">reddit-0.0.11</guid><pubDate>Thu, 26 Nov 2026 10:00:00 +0100</pubDate></item>
 <item><title>0.0.8, January: our space MMO's browser prototype polished its quests</title><description>Our look back at SpaceCorps 2027 continues with update 0.0.8 of the browser prototype, released on January 12, 2026.
 
 The quest system had gone in with the foundation release a day earlier, and it worked, but it did not feel good to use. In 0.0.8 we polished the quest features and the visuals around them, so taking a mission, following it and finishing it read more clearly. The picture on this card is the Mission Control window from that week.
