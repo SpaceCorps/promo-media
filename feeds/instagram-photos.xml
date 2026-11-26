@@ -2,6 +2,12 @@
 <rss version="2.0"><channel>
 <title>SpaceCorps promo: Instagram photos</title><link>https://github.com/SpaceCorps/promo-media</link>
 <description>SpaceCorps promo: Instagram photos</description>
+<item><title>0.0.13</title><description>The browser prototype's last update
+Back on February 15, 2026, update 0.0.13 added 9 quests, among them Phantasm Hunter, Marathon and Sector Sweep.
+It also let you fade every HUD window with one opacity setting.
+Free on Steam, link in bio.
+
+#spacegame #indiegame #indiedev #mmorpg #mmo #gamedev #pcgaming #scifi #freetoplay #spaceships</description><link>https://github.com/SpaceCorps/promo-media/releases/download/cards/card-v0.0.13.jpg</link><guid isPermaLink="false">instagram-photos-0.0.13</guid><pubDate>Thu, 26 Nov 2026 20:00:00 +0100</pubDate></item>
 <item><title>0.0.12</title><description>Every season ended the same way: a black hole eruption
 Back on January 24, 2026, update 0.0.12 of our browser prototype added seasons and wipes.
 You earned Wipe Points by playing and spent them in the Wipe Store on permanent boosts. Your equipped ship was protected.
