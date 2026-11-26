@@ -2,6 +2,12 @@
 <rss version="2.0"><channel>
 <title>SpaceCorps promo: Instagram photos</title><link>https://github.com/SpaceCorps/promo-media</link>
 <description>SpaceCorps promo: Instagram photos</description>
+<item><title>0.0.12</title><description>Every season ended the same way: a black hole eruption
+Back on January 24, 2026, update 0.0.12 of our browser prototype added seasons and wipes.
+You earned Wipe Points by playing and spent them in the Wipe Store on permanent boosts. Your equipped ship was protected.
+Free on Steam, link in bio.
+
+#spacegame #indiegame #indiedev #mmorpg #mmo #gamedev #pcgaming #scifi #freetoplay #spaceships</description><link>https://github.com/SpaceCorps/promo-media/releases/download/cards/card-v0.0.12.jpg</link><guid isPermaLink="false">instagram-photos-0.0.12</guid><pubDate>Thu, 26 Nov 2026 15:00:00 +0100</pubDate></item>
 <item><title>0.0.9</title><description>The first way to support the game
 Back on January 13, 2026, update 0.0.9 of our browser prototype added subscriptions.
 Payments went through Stripe, and premium status showed in one place in the interface.
