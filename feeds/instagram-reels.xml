@@ -2,6 +2,13 @@
 <rss version="2.0"><channel>
 <title>SpaceCorps promo: Instagram Reels</title><link>https://github.com/SpaceCorps/promo-media</link>
 <description>SpaceCorps promo: Instagram Reels</description>
+<item><title>0.1.0</title><description>From a browser tab to a native game
+On September 25, 2026, update 0.1.0 was the first public build of SpaceCorps 2027.
+Three corporations, real-time fights, clans, crafting and a 30-day season, on Windows, macOS and Linux.
+The clip shows the game as it plays now.
+Free on Steam, link in bio.
+
+#spacegame #indiegame #indiedev #mmorpg #mmo #gamedev #pcgaming #scifi #freetoplay #spaceships</description><link>https://github.com/SpaceCorps/promo-media/releases/download/v0.1.0/promo-9x16.mp4</link><guid isPermaLink="false">instagram-reels-0.1.0</guid><pubDate>Fri, 27 Nov 2026 10:00:00 +0100</pubDate></item>
 <item><title>0.0.11</title><description>Our very first drones, caught on camera
 Back on January 18, 2026, update 0.0.11 of our browser prototype added Drones V1.
 A Wingman formation in rows of 2-2-4, moving smoothly around the ship and closing in as it turned.

@@ -2,6 +2,24 @@
 <rss version="2.0"><channel>
 <title>SpaceCorps promo: Reddit</title><link>https://github.com/SpaceCorps/promo-media</link>
 <description>SpaceCorps promo: Reddit</description>
+<item><title>0.1.0, September: our space MMO left the browser and came back as SpaceCorps 2027, a native game</title><description>The browser prototype went quiet after February. On September 25, 2026, it came back as something else: update 0.1.0, the first public build of SpaceCorps 2027.
+
+We rebuilt the SpaceCorps space MMO as a native desktop game for Windows, macOS and Linux. The core stayed familiar. You fly for one of three corporations, fight aliens and other pilots in real time, found or join a clan, craft and fuse equipment, and climb the ranking through a 30-day season. The interface came in ten languages, and the game needed 4 GB of RAM and 400 MB of disk space.
+
+It was rough in places, and the notes said so. The builds were unsigned, so macOS and Windows warned on first launch. The Windows build had only passed automated checks, there was no installer, and one public server carried everyone.
+
+The clip is from October and November, so it shows the game as it plays now rather than on day one. A lot happened in the weeks after this, and the next posts in the series go through it.
+
+If you played the browser version, what did you want to see survive the rebuild?
+
+Video: https://github.com/SpaceCorps/promo-media/releases/download/v0.1.0/promo-9x16.mp4
+
+I work on the game.
+
+Notes: https://github.com/SpaceCorps/play/releases/tag/v0.1.0
+Steam: https://store.steampowered.com/app/2213580/
+Play: https://play.spacecorps.tech/
+Discord: https://discord.gg/VjW67tkrTb</description><link>https://github.com/SpaceCorps/promo-media/releases/download/v0.1.0/promo-9x16.mp4</link><guid isPermaLink="false">reddit-0.1.0</guid><pubDate>Fri, 27 Nov 2026 10:00:00 +0100</pubDate></item>
 <item><title>0.0.11, January: the first drones of our space MMO, flying a Wingman formation in the browser prototype</title><description>This history post has footage from the day itself. On January 18, 2026, update 0.0.11 of our browser prototype added Drones V1.
 
 The drones flew in a Wingman formation, in rows of 2-2-4 around the player's ship. Their movement was interpolated so they glided into place, and the formation tightened depending on how the ship was rotated. We drew them with instanced rendering so a screen full of drones stayed fast. In the clip you can see them follow the ship while it shoots a Seeker.
