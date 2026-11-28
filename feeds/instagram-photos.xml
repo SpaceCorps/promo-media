@@ -2,6 +2,12 @@
 <rss version="2.0"><channel>
 <title>SpaceCorps promo: Instagram photos</title><link>https://github.com/SpaceCorps/promo-media</link>
 <description>SpaceCorps promo: Instagram photos</description>
+<item><title>0.3.0</title><description>One galaxy became three separate worlds
+Back on September 26, 2026, update 0.3.0 split SpaceCorps 2027 into Alpha, Beta and Gamma.
+Aliens in Gamma were 2.0x as strong, and kills there paid 3.0x. Each world took up to 1,000 pilots per season.
+Free on Steam, link in bio.
+
+#spacegame #indiegame #indiedev #mmorpg #mmo #gamedev #pcgaming #scifi #freetoplay #spaceships</description><link>https://github.com/SpaceCorps/promo-media/releases/download/cards/card-v0.3.0.jpg</link><guid isPermaLink="false">instagram-photos-0.3.0</guid><pubDate>Sat, 28 Nov 2026 20:00:00 +0100</pubDate></item>
 <item><title>0.2.3</title><description>Better shields started meaning less hull damage
 Back on September 26, 2026, update 0.2.3 made absorbance decide each hit's split.
 Before, every hit went 80% to shields and 20% to hull. With a Basic Shield Core and two Advanced cells, shields took 88%.
