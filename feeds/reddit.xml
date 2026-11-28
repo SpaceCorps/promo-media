@@ -2,6 +2,22 @@
 <rss version="2.0"><channel>
 <title>SpaceCorps promo: Reddit</title><link>https://github.com/SpaceCorps/promo-media</link>
 <description>SpaceCorps promo: Reddit</description>
+<item><title>0.2.2, September: the first update our space MMO installed by itself, and the pointing hand</title><description>Update 0.2.2 of SpaceCorps 2027 went out on September 26, 2026, and it was a milestone in a quiet way: the first version that reached players through the game's own updater. If you were on 0.2.1, you clicked Restart to Update and that was it.
+
+What it changed was small but you feel it all the time. Every button, tab, switch, link, list row and menu now showed the pointing hand when you hovered it, where many had shown the plain arrow. In flight, the hand appeared over what a click acts on: cargo boxes, the station, ships and aliens. Empty space kept the arrow, and a click just beside a ship still selected it. Disabled buttons and empty hotbar slots kept the arrow too, because clicking them does nothing.
+
+We care about this kind of detail because a space game is mostly clicking on things that move. Knowing before you click saves a lot of misfires.
+
+Which small interface detail in a game annoys you most when it is missing?
+
+Picture: https://github.com/SpaceCorps/promo-media/releases/download/cards/card-v0.2.2.jpg
+
+I work on the game.
+
+Notes: https://github.com/SpaceCorps/play/releases/tag/v0.2.2
+Steam: https://store.steampowered.com/app/2213580/
+Play: https://play.spacecorps.tech/
+Discord: https://discord.gg/VjW67tkrTb</description><link>https://github.com/SpaceCorps/promo-media/releases/download/cards/card-v0.2.2.jpg</link><guid isPermaLink="false">reddit-0.2.2</guid><pubDate>Sat, 28 Nov 2026 10:00:00 +0100</pubDate></item>
 <item><title>0.1.0, September: our space MMO left the browser and came back as SpaceCorps 2027, a native game</title><description>The browser prototype went quiet after February. On September 25, 2026, it came back as something else: update 0.1.0, the first public build of SpaceCorps 2027.
 
 We rebuilt the SpaceCorps space MMO as a native desktop game for Windows, macOS and Linux. The core stayed familiar. You fly for one of three corporations, fight aliens and other pilots in real time, found or join a clan, craft and fuse equipment, and climb the ranking through a 30-day season. The interface came in ten languages, and the game needed 4 GB of RAM and 400 MB of disk space.

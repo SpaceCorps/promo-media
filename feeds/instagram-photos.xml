@@ -2,6 +2,12 @@
 <rss version="2.0"><channel>
 <title>SpaceCorps promo: Instagram photos</title><link>https://github.com/SpaceCorps/promo-media</link>
 <description>SpaceCorps promo: Instagram photos</description>
+<item><title>0.2.2</title><description>Your cursor started telling you what you can click
+Back on September 26, 2026, update 0.2.2 was the first one SpaceCorps 2027 installed by itself.
+It made every button, tab, link and menu show the pointing hand, and in flight, every ship, alien and cargo box.
+Free on Steam, link in bio.
+
+#spacegame #indiegame #indiedev #mmorpg #mmo #gamedev #pcgaming #scifi #freetoplay #spaceships</description><link>https://github.com/SpaceCorps/promo-media/releases/download/cards/card-v0.2.2.jpg</link><guid isPermaLink="false">instagram-photos-0.2.2</guid><pubDate>Sat, 28 Nov 2026 10:00:00 +0100</pubDate></item>
 <item><title>0.2.1</title><description>No more downloading every version by hand
 Back on September 26, 2026, update 0.2.1 taught SpaceCorps 2027 to update itself.
 Versions download in the background and install on restart. If one fails to start, the old one comes back.
